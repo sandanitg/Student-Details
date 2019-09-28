@@ -1,0 +1,29 @@
+#div1{
+    width: 400px;
+    height: 300px;
+    border: 1px ridge gray;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20%;
+    margin-bottom: 25%;
+    background-color: gray;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+  }
+
+  button{
+        margin-top: 100px;
+        border: 2px solid lightgray;
+        background-color: white;
+        color: black;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+  }
+
+  button:hover{
+      background-color: rgb(189, 182, 182);
+  }

@@ -1,0 +1,59 @@
+.column {
+    float: left;
+  }
+
+  .row{
+      border: 0.5px solid gray;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .left {
+    width: 20%;
+  }
+  
+  .right {
+    width: 80%;
+  }
+
+  tr{
+    border: 1px solid gray;
+    height: 50px;
+  }
+
+  button{
+    width: 100px;
+    height: 50px;
+    display: block;
+    background-color: #555555;
+    color: white;
+  }
+
+  button:hover{
+      cursor: pointer;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(240, 234, 234);
+    padding: 15px 10px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #999;
+    color: white;
+  }
